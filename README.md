@@ -41,5 +41,3 @@ var app = builder.Build();
 app.MapGet("/hello", () => Results.Extensions.RazorSlice("/Slices/Hello.cshtml", DateTime.Now));
 app.run
 ```
-app.Run();
-
